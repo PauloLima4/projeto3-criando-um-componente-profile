@@ -5,7 +5,7 @@ export default function Profile(props){
         <div className={styles.container}>
             {/* imagem do usuário */}
             <img src={props.img} />
-            <hr />
+            
             {/* nome do usuário */}
             <h1>{props.name}</h1>
 
@@ -17,11 +17,11 @@ export default function Profile(props){
             <hr />
             <p>{props.email}</p>
             <hr />
-            
+
             {/* botões de contato */}
             <button><a href={props.githubUrl}>Github</a></button>
-            <button><a href={props.linkedinUrl}>Linkedin</a></button>
-            <button><a href={props.twitterUrl}>Twitter</a></button>
+            <button><a href={props.instagramUrl}>Instagram</a></button>
+            <button><a href={props.animeProfileUrl}>Anime Profile</a></button>
         </div>
     )
 }
