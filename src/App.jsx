@@ -9,7 +9,6 @@ export default function App(){
       img={'./avatar.jpg'} 
 
       // Nome
-      </hr>
       name={'Paulo Lima'} 
 
       // Biografia
